@@ -28,7 +28,7 @@ public class java1 {
         String myname = person + " Smith";
         System.out.println(myname);
 
-        int x = 27;
+        int x = 42;
         int y = 69;
         System.out.println(x+y);
         String a = "Steve", p = "Bean";
@@ -50,5 +50,29 @@ public class java1 {
 
         System.out.println("Talk about I am Steve.\rA famous quote from the\f Mincraft Movie: \t \"I am Steve\"\na\bIt\'s said by Jack Black\\Steve");
         
+        System.out.println(Math.max(5,10));
+        System.out.println(Math.min(10000000,2));
+        System.out.println(Math.sqrt(64)); //sqrt finds square root, returns float
+        System.out.println(Math.abs(-69)); //Makes value positive.
+        System.out.println(Math.random()); //Returns random float from 0 to 1.
+        int biggernum = (int)(Math.random()*70); //Returns random integer from 1 to 69
+        System.out.println(biggernum);
+
+        boolean isJavaFun = false;
+        boolean isFishTasty = true;
+        System.out.println("Is Java Fun? "+isJavaFun+"\nIs Fish Tasty? "+isFishTasty);
+        System.out.println(420>69); //Returns true *shock*
+        int o = 42;
+        System.out.println(o==69);
+
+        if(o>69){
+            System.out.println("You fucking pervert.");
+        } else if (o==x){
+           System.out.println("Hell Yeah!"); 
+        }else{
+            System.out.println("You are normal for once.");
+        }
+        String normal = (y == 69) ? "Pervert" : "Normal"; //Handy if/else shortcut.
+        System.out.println(normal);
     }
 }
