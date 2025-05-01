@@ -74,5 +74,48 @@ public class java1 {
         }
         String normal = (y == 69) ? "Pervert" : "Normal"; //Handy if/else shortcut.
         System.out.println(normal);
+
+        int day = 11;
+        switch(day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 4:
+                System.out.println("Gayday");
+                break;
+            case 69:
+                System.out.println("Steveday");
+                break;
+            default:
+                System.out.println("Wednesday");
+        }
+
+        int i = 0;
+        while (i<5){
+            System.out.println(i);
+            i++;
+        }
+
+        int h = 8;
+        do {
+            System.out.println(h);
+            h++;
+        }
+        while (h<5); // do loop will still run once even if condition does not apply.
+
+        for(int k = 0; k < 5; k=k+2){
+            System.out.println(k);
+        }
+
+        for (int r = 1; r < 5; r++){
+            for (int n = 1; n < 5; n++){
+                System.out.println("Day: "+r+" Hour: "+n);
+            }
+        }
+
+        String[] aftons = {"Afton","Aton", "Aftn", "fton"};
+        for (String u : aftons){
+            System.out.println(u);
+        }
     }
 }
